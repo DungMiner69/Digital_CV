@@ -1,0 +1,39 @@
+/*
+  Mobile có chiều ngang từ 768 trở xuống
+*/
+@media only screen and (max-width: 768px) {
+  #project .project-info-table {
+    width: 100% !important;
+  }
+  #project .project-info-table img {
+    width: 100% !important;
+  }
+  .kinh-nghiem,
+  .ky-nang,
+  .ngon-ngu,
+  .hoat-dong,
+  .hoc-van {
+    width: 100% !important;
+  }
+  #footer .container {
+    width: 100%;
+  }
+  section > .container {
+    width: 100%;
+  }
+  .border-right {
+    border-right: 0px !important;
+  }
+  .chung-chi {
+    justify-content: center;
+  }
+  #certificate .section-content .chung-chi .images {
+    width: 100%;
+  }
+  .link {
+    display: none;
+  }
+  #project .project-info-table {
+    width: 100%;
+  }
+}

@@ -1,0 +1,312 @@
+/* Người viết Nguyễn Tiến Dũng */
+
+/* Setting tổng */
+* {
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Chỉnh màu cho chữ toàn phần thân */
+body {
+  color: rgb(116, 95, 95);
+}
+
+/* Chỉnh màu nền thành màu xám */
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Thiết lập cho container của các section */
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+/* Thiết kế link */
+
+/* Thiết kế cho link dạng text */
+.link-text {
+  color: rgb(116, 95, 95);
+}
+
+.link-text:hover {
+  color: deeppink;
+}
+
+/* Thiết kế cho link dạng icon */
+.link-icon {
+  color: rgb(116, 95, 95);
+}
+
+.link-icon:hover {
+  color: aqua;
+}
+
+/* Thiết kế khoảng cách giữa các icon */
+.icon-space {
+  margin-top: 20px;
+}
+
+/* Thiết lập banner */
+#banner {
+  position: relative;
+  padding: 0px !important;
+}
+
+/* Chỉnh độ to cho hình ảnh của banner*/
+.banner-image {
+  width: 100%;
+}
+
+/* Điều chỉnh cho chữ của banner ở giữa hình ảnh */
+.centered {
+  font-size: 27px;
+  color: antiquewhite;
+  text-align: center;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Thiết lập thanh điều hướng */
+
+/* Phân chia layout cho thanh điều hướng */
+
+#nav-bar .info {
+  text-align: center;
+}
+
+/* Điều chỉnh cho phần anchor của thanh điều hướng */
+#nav-bar .container a {
+  color: rgb(116, 95, 95);
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Căn chỉnh 2 khung target và personal-info*/
+#about .container #target,
+#about .container #personal-info {
+  padding: 50px;
+}
+
+/* In đậm mục span của personal-info */
+#about .container #personal-info span {
+  font-weight: bold;
+}
+
+/* Chỉnh màu cho personal-info */
+#about .container #personal-info {
+  background-color: rgb(219, 219, 219);
+}
+
+/* Căn chỉnh và làm to phong chữ của tiêu đề */
+#about .container .section-title {
+  font-size: 33px;
+  margin-bottom: 60px;
+}
+
+/* chỉnh lề của container của thông tin cá nhân */
+#about .container {
+  padding: 0px 0px;
+  padding-left: 12px;
+}
+
+.wrong-email {
+  color: orangered;
+}
+/* Thiết kế cho mục thông tin nghề nghiệp */
+
+.text-box {
+  border: 1px #d6c08d;
+  background-color: #d6c08d;
+  color: whitesmoke;
+  width: 115px;
+  border-radius: 20px;
+  padding-left: 4px;
+}
+
+.text-box:hover {
+  cursor: pointer;
+}
+
+/* Thiết kế cho khung thông tin của từng phần */
+.kinh-nghiem,
+.ky-nang,
+.ngon-ngu,
+.hoat-dong,
+.hoc-van,
+.so-thich {
+  padding-left: 30px;
+  padding-top: 80px;
+  border: 1px solid black;
+}
+
+/* Căn chỉnh và làm to phong chữ của tiêu đề */
+#job-info .container div h1 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+/* Chỉnh icon đầu tiên của thông tin nghề nghiệp lên trên kế bên tiêu đề */
+.first-icon {
+  font-size: 50px;
+}
+
+/* Căn lề phần unordered list */
+#job-info ul {
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+#job-info li {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+/* Chỉnh sửa phần table */
+.so-thich table {
+  margin-top: 15px;
+}
+
+.so-thich td {
+  text-align: center;
+}
+
+.so-thich td i {
+  padding-top: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 65px;
+  height: 55px;
+  font-size: 40px;
+}
+
+/* Thiết kế phần khung phát sáng */
+.highlight-line {
+  display: inline-block;
+  background-color: aqua;
+  border: 1px solid aqua !important;
+  width: 40px;
+  height: 3px;
+  padding: 0px !important;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+/* Thiết kế phần khung không phát sáng */
+.no-highlight-line {
+  display: inline-block;
+  background-color: grey;
+  border: 1px solid grey !important;
+  width: 40px;
+  height: 3px;
+  padding: 0px !important;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+/* Phân chia layout cho mỗi phần thông tin trong khung */
+#certificate .section-content .chung-chi {
+  display: grid;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+#certificate .section-content .chung-chi {
+  border-bottom: 1px solid #d6c08d;
+}
+
+/* Chỉnh kích thước của hình ảnh trong khung */
+#project .project-info-table img {
+  width: 330px;
+  height: 280px;
+}
+
+/* Phân chia layout cho khung dự án */
+#project .project-info-table {
+  display: grid;
+  grid-row: 4fr 1fr 1fr 1fr 1fr 1fr;
+  width: 330px;
+}
+
+.project-link {
+  color: black !important;
+  text-decoration: none;
+}
+
+/* Chỉnh lề phần tiêu đề trong khung */
+#project .project-info-table .title {
+  border: 1px solid #d6c08d;
+  border-bottom: 0px;
+  font-size: larger;
+  font-weight: bold;
+  padding: 20px 0px 15px 15px;
+}
+
+/* Tạo khung, chỉnh lề, tạo layout cho text ở trong mục content-info */
+#project .project-info-table .content-info {
+  border: 1px solid #d6c08d;
+  border-bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  gap: 10px;
+}
+
+.border-right {
+  border-right: 1px solid #d6c08d;
+}
+
+/* Chỉnh lề cho tiêu đề */
+#project .project-info-table .content-info .title-content {
+  margin: 10px 3px 10px 10px;
+}
+
+/* Tạo khung, chỉnh lề, tạo layout cho text ở trong mục content */
+#project .project-info-table .content {
+  border: 1px solid #d6c08d;
+  border-bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+  padding: 15px 3px 15px 10px;
+}
+
+#project .project-info-table .content:last-child {
+  border-bottom: 1px solid #d6c08d;
+  padding-bottom: 20px;
+}
+
+/* Căn chỉnh và tạo layout cho mục footer */
+#footer .container {
+  width: 700px;
+}
+
+/* Thiết lập và tạo layout cho các mục link */
+#footer .container .link-container {
+  color: rgb(116, 95, 95);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  font-size: 34px;
+}
+
+/* Căn lề cho link */
+#footer .container .link-container .link {
+  margin-left: 10px;
+}
+
+/* Chỉnh màu, kiểu chữ và xóa gạch dưới của anchor */
+#footer .container .link-container .link a {
+  color: rgb(116, 95, 95);
+  text-decoration: none;
+  font-size: 30px;
+}

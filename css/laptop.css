@@ -1,0 +1,88 @@
+/*
+  Thêm bootstrap icon cho website
+*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/*
+  Laptop có chiều ngang từ 992px trở lên
+*/
+@media only screen and (min-width: 992px) {
+  #nav-bar .info {
+    display: block;
+  }
+  #certificate .section-content .chung-chi {
+    grid-template-columns: 1fr 3fr;
+    padding-bottom: 20px;
+  }
+  #certificate .section-content .chung-chi .images {
+    width: 250px;
+    height: 150px;
+  }
+  .kinh-nghiem,
+  .ky-nang,
+  .ngon-ngu,
+  .hoat-dong,
+  .hoc-van,
+  .so-thich {
+    padding-bottom: 60px;
+  }
+  #job-info .row {
+    margin-top: 30px;
+  }
+  .text-box {
+    margin-top: 15px;
+  }
+  .header {
+    border-bottom: 1px solid black;
+    color: blue;
+  }
+
+  .goal-box {
+    border-bottom: 1px solid black;
+  }
+  .goal-content-box p {
+    margin-bottom: 5px;
+  }
+  .flag {
+    font-size: 47px;
+    text-align: center;
+  }
+  .member {
+    font-size: 37px;
+  }
+  .primary {
+    font-size: 37px;
+  }
+  .time {
+    font-size: 36px;
+    height: 63px;
+    width: 63px;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-color: plum;
+  }
+  .time p {
+    margin-bottom: 5px;
+  }
+  .timeline-text-box p {
+    margin-bottom: 2px;
+  }
+  .centered {
+    text-align: center;
+  }
+  .timeline-text-box {
+    border-bottom: 1px solid black;
+  }
+  #timeline {
+    height: 99%;
+  }
+  #goal,
+  #scopes,
+  #team,
+  #primary {
+    height: 100%;
+  }
+  #goal {
+    padding-bottom: 10% !important;
+  }
+}
